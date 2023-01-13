@@ -1,5 +1,5 @@
 body{
-    max-width: 1333px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 h1{
@@ -67,7 +67,24 @@ h1{
 
 /* --------------for Medium Devices---------------- */
 @media screen and (min-width:577px) and (max-width:991px) {
-
+    .box{
+        background-color: indigo;
+        color: #fff;
+        
+    }
+    #nav{
+        grid-column: 1;
+        grid-row: 3 / 8;
+    }
+    #ads{
+        grid-column: 5 / -1;
+        grid-row: 3 / 9;
+    }
+    
+    #footer{
+        grid-column: 1 / 5;
+        grid-row: 8 / -1;
+    }
 
     
 }
@@ -79,6 +96,5 @@ h1{
 
 /* --------------for Small Devices---------------- */
 @media screen and (max-width:576px) {
-
-    
+ 
 }
